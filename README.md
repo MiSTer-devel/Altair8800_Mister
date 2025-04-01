@@ -193,11 +193,13 @@ Assumes your MiSTer Console port is connected at COM4
 reboot mister
 
 connect to console com4 at 115200 with putty
+
 login
   - un:root
   - pw:1
 
 load altair core
+
 select console port in osd
 
 screen /dev/ttyS1 19200
@@ -208,9 +210,11 @@ set sense switches on Altair front panel
   - 8 on
 
 select on switch
+
 select run switch
 
 select basic4k32 in osd
+
 press load program in osd
 
 MEMORY SIZE?
